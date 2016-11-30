@@ -1,0 +1,34 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "Refer to https://facebook.github.io/react/tutorial/tutorial.html",
+  "main": "src/Game.js",
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.26.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --progress --config webpack.config.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mktktmr/ex-react-tic-tac-toe.git"
+  },
+  "author": "mktktmr (today.is.sailingday24@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mktktmr/ex-react-tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/mktktmr/ex-react-tic-tac-toe#readme"
+}
